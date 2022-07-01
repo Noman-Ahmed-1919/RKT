@@ -1,13 +1,674 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* body{
+  
+  background: url(images/web-background-1920.jpg) ; 
+  background-size: cover;
+background-position: center;
+min-height: 100vh;
+    background-repeat: no-repeat;
+
+
+} */
+
+#sec1{
+  background: url(images/web-background-1920.jpg) ; 
+  background-size: cover;
+background-position: center;
+min-height: 100vh;
+height: 1000px;
+    background-repeat: no-repeat; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.img1{
+  width: 346px;
+    position: absolute;
+    bottom: 140px;
+    right: 380px;
 }
+.img2{
+  width: 375px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+.img3{
+  width: 250px;
+  position: absolute;
+  top: 36px;
+  left: 51px;
+
+}
+.img5{
+  width: 20%;
+    height: 30%;
+    position: absolute;
+    bottom: 40px;
+    right: 71px;
+}
+.img6{
+  width: 100px;
+  position: absolute;
+
+  right: 360px;
+  bottom: 20px
+
+}
+.img8{
+  width: 428px;
+  position: absolute;
+  top: 107px;
+  left: 590px;
+}
+.img9{
+  width: 20%;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+
+  transition:all 1s;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.img9:hover{
+  width: 22%;
+  height: 165px;
+  position: absolute;
+  top: 250px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+ 
+}
+
+
+
+.img7{
+  width: 4%;
+  height: 55px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  transition:all 1s;
+}
+.img7:hover{
+  width: 5%;
+  height: 55px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.img10{
+  width: 4%;
+  height: 55px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  transition:all 1s;
+  }
+.img10:hover{
+  width: 5%;
+  height: 55px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+/* @media only screen (min-width: 768px){
+
+  is se uper ki responsiveness change hoge matlab 768 ki uper ki...
+  
+  }
+  @media only screen (min-width: 768px){
+
+    is se neechey ki responsiveness change hoge matlab 768 se neechey ki
+  }  */
+
+
+  @media screen and (max-width: 1326px) and (min-width: 800px) { 
+
+ 
+
+    .img1{
+      width: 30%;
+      position: absolute;
+      bottom: 116px;
+      right: 261px;
+      
+    }
+    .img2{
+      width: 265px;
+      position: absolute;
+      bottom: 100px;
+      left: 41px;
+    }
+    .img3{
+      width: 23%;
+      position: absolute;
+      top: 37px;
+      left: 25px;
+    
+    }
+    .img5{
+      width: 25%;
+      
+      position: absolute;
+      bottom: 40px;
+      right: 24px;
+    }
+    .img6{
+      width: 86px;
+      position: absolute;
+      right: 219px;
+      bottom: 21px;
+    
+    
+    }
+    .img8{
+      width: 24%;
+      position: absolute;
+      top: 77px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    .img9{
+      width: 15%;
+      height: 100px;
+      position: absolute;
+      top: 172px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    
+    .img9:hover{
+      width: 16%;
+      height: 100px;
+      position: absolute;
+      top: 172px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+     
+    }
+    
+    
+    
+    .img7{
+      width: 6%;
+      height: 52px;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      transition: all 0.5s ease-out;
+    }
+    .img7:hover{
+      width: 7%;
+      height: 52px;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+    }
+    
+    .img10{
+      width: 6%;
+      height: 52px;
+      position: absolute;
+      top: 100px;
+      right: 40px;
+      transition: all 0.5s;
+    }
+    .img10:hover{
+      width: 7%;
+      height: 5px;
+      position: absolute;
+      top: 10px;
+      right: 40px;
+    }
+    
+    
+    
+  }
+
+
+  @media screen and (max-width: 799px) and (min-width: 576px) { 
+
+ 
+
+    .img1{
+      width: 25%;
+      position: absolute;
+      bottom: 176px;
+      right: 130px;
+      
+    }
+    .img2{
+      width: 200px;
+      position: absolute;
+      bottom: 100px;
+      left: 41px;
+    }
+    .img3{
+      width: 23%;
+      position: absolute;
+      top: 37px;
+      left: 25px;
+    
+    }
+    .img5{
+      width: 13%;
+      height: 18%;
+      position: absolute;
+      bottom: 80px;
+      right: 16px;
+    }
+    .img6{
+      width: 76px;
+      position: absolute;
+      right: 120px;
+      bottom: 60px;
+    
+    
+    }
+    .img8{
+      width: 24%;
+      position: absolute;
+      top: 77px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    .img9{
+      width: 15%;
+      height: 60px;
+      position: absolute;
+      top: 142px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    
+    .img9:hover{
+      width: 16%;
+      height: 60px;
+      position: absolute;
+      top: 142px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+     
+    }
+    
+    
+    
+    .img7{
+      width: 7%;
+      height: 36px;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      transition: all 0.5s ease-out;
+    }
+    .img7:hover{
+      width: 8%;
+      height: 36px;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+    }
+    
+    .img10{
+      width: 7%;
+      height: 36px;
+      position: absolute;
+      top: 80px;
+      right: 40px;
+      transition: all 0.5s;
+    }
+    .img10:hover{
+      width: 8%;
+      height: 36px;
+      position: absolute;
+      top: 83px;
+      right: 40px;
+    }
+    
+    
+    
+  }
+
+
+
+
+
+     
+     @media screen and (max-width: 575px) and (min-width: 430px){
+      
+      #sec1{
+        background: url(images/mobile.jpeg) ; 
+        background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      height: 1000px;
+          background-repeat: no-repeat; 
+      }
+
+      .img1{
+        width: 32%;
+        position: absolute;
+        bottom: 267px;
+        right: 101px;
+        
+      }
+      .img2{
+        width: 185px;
+        position: absolute;
+        bottom: 100px;
+        left: 33px;
+      }
+      .img3{
+        width: 32%;
+        position: absolute;
+        top: 37px;
+        left: 25px;
+      
+      }
+      .img5{
+        width: 27%;
+    height: 16%;
+    position: absolute;
+    bottom: 99px;
+    right: 16px;
+      }
+      .img6{
+        width: 84px;
+        position: absolute;
+        right: 160px;
+        bottom: 49px;
+      
+      }
+      .img8{
+        width: 48%;
+        position: absolute;
+        top: 184px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
+      .img9{
+        width: 36%;
+    height: 61px;
+    position: absolute;
+    top: 270px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+      }
+      
+      .img9:hover{
+        width: 37%;
+        height: 61px;
+        position: absolute;
+        top: 270px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+       
+      }
+      
+      
+      
+      .img7{
+        width: 10%;
+        height: 38px;
+        position: absolute;
+        top: 30px;
+        right: 23px;
+        transition: all 0.5s ease-out;
+      }
+      .img7:hover{
+        width: 11%;
+        height: 38px;
+        position: absolute;
+        top: 30px;
+        right: 23px;
+      }
+      
+      .img10{
+        width: 10%;
+        height: 38px;
+        position: absolute;
+        top: 73px;
+        right: 23px;
+        transition: all 0.5s;
+      }
+      .img10:hover{
+        width: 11%;
+        height: 38px;
+        position: absolute;
+        top: 73px;
+        right: 23px;
+      }
+      
+      
+  
+   
+
+  }
+  
+  
+  @media screen and (max-width: 429px) and (min-width: 374px){
+      
+    #sec1{
+      background: url(images/mobile.jpeg) ; 
+      background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 1000px;
+        background-repeat: no-repeat; 
+    }
+
+    .img1{
+      width: 42%;
+      position: absolute;
+      bottom: 284px;
+      right: 13px;
+      
+    }
+    .img2{
+      width: 188px;
+    position: absolute;
+    bottom: 101px;
+    left: 11px;
+    }
+    .img3{
+      width: 37%;
+      position: absolute;
+      top: 26px;
+      left: 14px;
+    
+    }
+    .img5{
+      width: 31%;
+      height: 18%;
+      position: absolute;
+      bottom: 76px;
+      right: 16px;
+    }
+    .img6{
+      width: 84px;
+      position: absolute;
+      right: 160px;
+      bottom: 30px;
+    
+    }
+    .img8{
+      width: 45%;
+      position: absolute;
+      top: 150px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    .img9{
+      width: 31%;
+      height: 58px;
+      position: absolute;
+      top: 213px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    
+    .img9:hover{
+      width: 32%;
+      height: 58px;
+      position: absolute;
+      top: 213px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+     
+    }
+    
+    
+    
+    .img7{
+      width: 9%;
+      height: 33px;
+      position: absolute;
+      top: 30px;
+      right: 23px;
+      transition: all 0.5s ease-out;
+    }
+    .img7:hover{
+      width: 10%;
+      height: 33px;
+      position: absolute;
+      top: 30px;
+      right: 23px;
+    }
+    
+    .img10{
+      width: 9%;
+      height: 33px;
+      position: absolute;
+      top: 69px;
+      right: 23px;
+      transition: all 0.5s;
+    }
+    .img10:hover{
+      width: 10%;
+      height: 33px;
+      position: absolute;
+      top: 69px;
+      right: 23px;
+    }
+    
+    
+
+ 
+
+}
+
+
+ 
+  
+@media screen and (max-width: 373px) and (min-width: 280px){
+      
+  #sec1{
+    background: url(images/mobile.jpeg) ; 
+    background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: 1000px;
+      background-repeat: no-repeat; 
+  }
+
+  .img1{
+    width: 42%;
+    position: absolute;
+    bottom: 284px;
+    right: 13px;
+    
+  }
+  .img2{
+    width: 156px;
+    position: absolute;
+    bottom: 136px;
+    left: 11px;
+  }
+  .img3{
+    width: 42%;
+    position: absolute;
+    top: 26px;
+    left: 14px;
+  
+  }
+  .img5{
+    width: 33%;
+    height: 13%;
+    position: absolute;
+    bottom: 76px;
+    right: 3px;
+  }
+  .img6{
+    width: 71px;
+    position: absolute;
+    right: 117px;
+    bottom: 26px;
+  
+  }
+  .img8{
+    width: 52%;
+    position: absolute;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .img9{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    top: 209px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  
+  .img9:hover{
+    width: 36%;
+    height: 50px;
+    position: absolute;
+    top: 209px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+   
+  }
+  
+  
+  
+  .img7{
+    width: 9%;
+    height: 33px;
+    position: absolute;
+    top: 30px;
+    right: 23px;
+    transition: all 0.5s ease-out;
+  }
+  .img7:hover{
+    width: 10%;
+    height: 33px;
+    position: absolute;
+    top: 30px;
+    right: 23px;
+  }
+  
+  .img10{
+    width: 9%;
+    height: 33px;
+    position: absolute;
+    top: 69px;
+    right: 23px;
+    transition: all 0.5s;
+  }
+  .img10:hover{
+    width: 10%;
+    height: 33px;
+    position: absolute;
+    top: 69px;
+    right: 23px;
+  }
+  
+  
+
+
+
+}
+
